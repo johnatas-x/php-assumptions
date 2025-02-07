@@ -1,15 +1,19 @@
 {
-    "name": "rskuipers/php-assumptions",
+    "name": "johnatas-x/php-assumptions",
     "description": "Static code analysis tool to detect weak assumptions",
     "license": "MIT",
     "authors": [
         {
             "name": "Rick Kuipers",
             "email": "io@rskuipers.com"
+        },
+        {
+            "name": "Johnatas",
+            "role": "Fork maintainer"
         }
     ],
     "require": {
-        "nikic/php-parser": "^2.0|^3.0|^4.0",
+        "nikic/php-parser": "^2.0|^3.0|^4.0|^5.0",
         "league/climate": "^3.1"
     },
     "require-dev": {
